@@ -1,0 +1,158 @@
+
+body{
+    font: 90% sans-serif;
+    background: url("images/lib.jpg");
+}
+ div#header h1{
+    color: aliceblue;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 50px;
+   
+}
+
+nav{
+    background:#1589FF ;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #00bfff;
+    transition: .5s;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.cards{
+    padding: 50px;
+    background: #00bfff;
+    border-radius: 10px;
+    text-align: center;
+}
+.card{
+    padding: 50px;
+    background: #00bfff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 7px 25px 0 royalblue;
+    text-align: center;
+    
+}
+.card h3{
+    margin-left: 45px;
+    
+}
+.card h2{
+    margin-left: 40px;
+    
+}
+.ulogin{
+    margin-left: 45px;
+}
+#name{
+   background: transparent;
+    border: none;
+    border-bottom: 1px solid  #00bfff ;
+    padding: 10px;
+    margin-bottom:5px;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+#button{
+    border: 20px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   
+    margin-top: 15px;
+    font-weight: bold;
+    width: 100%;
+ 
+}
+.abody{
+    font: 90% sans-serif;
+    background: url("images/admin.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.error{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 15px 20px;
+    background: pink;
+    border-radius: 10px;
+}
+.success{
+    color: green;
+    text-align: center;
+    padding: 10px 20px 15px 20px;
+    background: greenyellow;
+    border-radius: 10px;
+
+}
+.dashboard ul{
+ width: 100%;
+ padding: 5px 20px;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 25px;
+ font-weight: bold;
+ 
+}
+.dashboard{
+    text-align: center;
+}
+ table{
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ table td, table th{
+     border: 1px solid black;
+     padding: 5px;
+     
+ }
+strong{
+	color:yellow;
+	padding:5px;
+}
+i{
+	color:green;
+	padding:5px;
+}
